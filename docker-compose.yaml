@@ -51,5 +51,3 @@ services:
         condition: service_healthy
       output_db:
         condition: service_healthy
-      pgadmin:
-        condition: service_started
